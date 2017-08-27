@@ -1,0 +1,51 @@
+
+//////////////////////////////////////////////////////////////
+
+tsan vector
+add push front
+
+sanitizer_thread_registry.h 120
+ThreadRegistry removed private
+
+
+rtl h ThreadContext  440
+add vector
+
+ tsan_rtl_thread.cc 29
+init vecot
+
+
+ tsan_rtl_thread.cc 90
+void ThreadContext::OnStarted(void *arg) {
+add insert vector
+
+ tsan_rtl_thread.cc 45
+void ThreadContext::OnJoined(void *arg) {
+add joint thread !!!!!!!!!!1   		~ to tid
+
+
+tsan_rtl_mutex.cc 170
+add lock AQR to history				<< 13 to lock id
+line 220: << 13 and then ~ to lock id
+
+lock
+unlock
+rd lock
+rd unlock
+MutexReadOrWriteUnlock
+
+
+//////////////////////////////////////////////
+rtl .h
+381
+
+bool not updated
+
+//////////////////////////////////////////////////////////////
+
+interface .h
+interface inl  add two new
+
+rtl .h 658  add new MemoryRead
+
+

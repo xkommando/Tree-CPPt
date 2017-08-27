@@ -1,0 +1,132 @@
+>>> file:/home/cbw/workspace/llvm/llvm-3.8.0.src/projects/compiler-rt/lib/tsan/rtl/tsan_platform_linux.cc, func:MapRodata, ln:157
+/tmp/tsan.rodata.14855
+>>> file:/home/cbw/workspace/llvm/llvm-3.8.0.src/projects/compiler-rt/lib/tsan/rtl/tsan_platform_linux.cc, func:MapRodata, ln:167
+marker 0x7f10f98c4000 --(65536)--> 0x7f10f9944000
+>>> file:/home/cbw/workspace/llvm/llvm-3.8.0.src/projects/compiler-rt/lib/tsan/rtl/tsan_platform_linux.cc, func:MapRodata, ln:168
+kShadowRodata: -1, marker.size(): 524288
+>>> file:/home/cbw/workspace/llvm/llvm-3.8.0.src/projects/compiler-rt/lib/tsan/rtl/tsan_platform_linux.cc, func:MapRodata, ln:194
+start:0x000000400000 -> end:0x000000503000, map to shadow 0x080001000000 -> 0x08000140c000
+>>> file:/home/cbw/workspace/llvm/llvm-3.8.0.src/projects/compiler-rt/lib/tsan/rtl/tsan_platform_linux.cc, func:MapRodata, ln:194
+start:0x7f10f859d000 -> end:0x7f10f8757000, map to shadow 0x0443e1674000 -> 0x0443e1d5c000
+>>> file:/home/cbw/workspace/llvm/llvm-3.8.0.src/projects/compiler-rt/lib/tsan/rtl/tsan_platform_linux.cc, func:MapRodata, ln:194
+start:0x7f10f8962000 -> end:0x7f10f8978000, map to shadow 0x0443e2588000 -> 0x0443e25e0000
+>>> file:/home/cbw/workspace/llvm/llvm-3.8.0.src/projects/compiler-rt/lib/tsan/rtl/tsan_platform_linux.cc, func:MapRodata, ln:194
+start:0x7f10f8b79000 -> end:0x7f10f8b7c000, map to shadow 0x0443e2de4000 -> 0x0443e2df0000
+>>> file:/home/cbw/workspace/llvm/llvm-3.8.0.src/projects/compiler-rt/lib/tsan/rtl/tsan_platform_linux.cc, func:MapRodata, ln:194
+start:0x7f10f8d7d000 -> end:0x7f10f8d84000, map to shadow 0x0443e35f4000 -> 0x0443e3610000
+>>> file:/home/cbw/workspace/llvm/llvm-3.8.0.src/projects/compiler-rt/lib/tsan/rtl/tsan_platform_linux.cc, func:MapRodata, ln:194
+start:0x7f10f8f85000 -> end:0x7f10f8f9e000, map to shadow 0x0443e3e14000 -> 0x0443e3e78000
+>>> file:/home/cbw/workspace/llvm/llvm-3.8.0.src/projects/compiler-rt/lib/tsan/rtl/tsan_platform_linux.cc, func:MapRodata, ln:194
+start:0x7f10f91a3000 -> end:0x7f10f92a8000, map to shadow 0x0443e468c000 -> 0x0443e4aa0000
+>>> file:/home/cbw/workspace/llvm/llvm-3.8.0.src/projects/compiler-rt/lib/tsan/rtl/tsan_platform_linux.cc, func:MapRodata, ln:194
+start:0x7f10f94a9000 -> end:0x7f10f95af000, map to shadow 0x0443e52a4000 -> 0x0443e56bc000
+>>> file:/home/cbw/workspace/llvm/llvm-3.8.0.src/projects/compiler-rt/lib/tsan/rtl/tsan_platform_linux.cc, func:MapRodata, ln:194
+start:0x7f10f97bb000 -> end:0x7f10f97de000, map to shadow 0x0443e5eec000 -> 0x0443e5f78000
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MyTest
+[ RUN      ] MyTest.Shadow_Mem
+0x0000014e2920 -> 0x08000538a480
+0x0000014e2924 -> 0x08000538a480
+0x0000014e2928 -> 0x08000538a4a0
+0x0000014e292c -> 0x08000538a4a0
+
+0x0000014e42b8 -> 0x080005390ae0
+0x0000014e42bc -> 0x080005390ae0
+0x0000014e42c0 -> 0x080005390b00
+0x0000014e42c4 -> 0x080005390b00
+
+0x0000014e5c50 -> 0x080005397140
+0x0000014e5c54 -> 0x080005397140
+0x0000014e5c58 -> 0x080005397160
+0x0000014e5c5c -> 0x080005397160
+
+0x0000014e75e8 -> 0x08000539d7a0
+0x0000014e75ec -> 0x08000539d7a0
+0x0000014e75f0 -> 0x08000539d7c0
+0x0000014e75f4 -> 0x08000539d7c0
+
+0x0000014e8f80 -> 0x0800053a3e00
+0x0000014e8f84 -> 0x0800053a3e00
+0x0000014e8f88 -> 0x0800053a3e20
+0x0000014e8f8c -> 0x0800053a3e20
+
+0x0000014ea918 -> 0x0800053aa460
+0x0000014ea91c -> 0x0800053aa460
+0x0000014ea920 -> 0x0800053aa480
+0x0000014ea924 -> 0x0800053aa480
+
+0x0000014ec2b0 -> 0x0800053b0ac0
+0x0000014ec2b4 -> 0x0800053b0ac0
+0x0000014ec2b8 -> 0x0800053b0ae0
+0x0000014ec2bc -> 0x0800053b0ae0
+
+0x0000014edc48 -> 0x0800053b7120
+0x0000014edc4c -> 0x0800053b7120
+0x0000014edc50 -> 0x0800053b7140
+0x0000014edc54 -> 0x0800053b7140
+
+0x0000014ef5e0 -> 0x0800053bd780
+0x0000014ef5e4 -> 0x0800053bd780
+0x0000014ef5e8 -> 0x0800053bd7a0
+0x0000014ef5ec -> 0x0800053bd7a0
+
+0x0000014f0f78 -> 0x0800053c3de0
+0x0000014f0f7c -> 0x0800053c3de0
+0x0000014f0f80 -> 0x0800053c3e00
+0x0000014f0f84 -> 0x0800053c3e00
+
+0x0000014f2910 -> 0x0800053ca440
+0x0000014f2914 -> 0x0800053ca440
+0x0000014f2918 -> 0x0800053ca460
+0x0000014f291c -> 0x0800053ca460
+
+0x0000014f42a8 -> 0x0800053d0aa0
+0x0000014f42ac -> 0x0800053d0aa0
+0x0000014f42b0 -> 0x0800053d0ac0
+0x0000014f42b4 -> 0x0800053d0ac0
+
+0x0000014f5c40 -> 0x0800053d7100
+0x0000014f5c44 -> 0x0800053d7100
+0x0000014f5c48 -> 0x0800053d7120
+0x0000014f5c4c -> 0x0800053d7120
+
+0x0000014f75d8 -> 0x0800053dd760
+0x0000014f75dc -> 0x0800053dd760
+0x0000014f75e0 -> 0x0800053dd780
+0x0000014f75e4 -> 0x0800053dd780
+
+0x0000014f8f70 -> 0x0800053e3dc0
+0x0000014f8f74 -> 0x0800053e3dc0
+0x0000014f8f78 -> 0x0800053e3de0
+0x0000014f8f7c -> 0x0800053e3de0
+
+0x0000014fa908 -> 0x0800053ea420
+0x0000014fa90c -> 0x0800053ea420
+0x0000014fa910 -> 0x0800053ea440
+0x0000014fa914 -> 0x0800053ea440
+
+0x0000014fc2a0 -> 0x0800053f0a80
+0x0000014fc2a4 -> 0x0800053f0a80
+0x0000014fc2a8 -> 0x0800053f0aa0
+0x0000014fc2ac -> 0x0800053f0aa0
+
+0x0000014fdc38 -> 0x0800053f70e0
+0x0000014fdc3c -> 0x0800053f70e0
+0x0000014fdc40 -> 0x0800053f7100
+0x0000014fdc44 -> 0x0800053f7100
+
+0x0000014ff5d0 -> 0x0800053fd740
+0x0000014ff5d4 -> 0x0800053fd740
+0x0000014ff5d8 -> 0x0800053fd760
+0x0000014ff5dc -> 0x0800053fd760
+
+0x000001500f68 -> 0x080005403da0
+0x000001500f6c -> 0x080005403da0
+0x000001500f70 -> 0x080005403dc0
+0x000001500f74 -> 0x080005403dc0
+
+0x000001502900 -> 0x08000540a400
+0x000001502904 -> 0x08000540a400
+0x000001502908 -> 0x08000540a420
+0x00000150290c -> 0x08000540a420
